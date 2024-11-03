@@ -46,7 +46,11 @@
   flex-direction: row;
 }
 
-.weather img {
+.weather .float-left {
+  padding-right: 20px;
+}
+
+.weather .canvas {
   height: 64px;
   width: 64px;
   margin-right: 10px;
