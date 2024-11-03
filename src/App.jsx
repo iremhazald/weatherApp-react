@@ -14,7 +14,7 @@ function App() {
         <footer>
           This project was coded by Irem Hazal Deveci and is{" "}
           <a
-            href="https://github.com/wecodeschool/react-weather-app"
+            href="https://github.com/iremhazald/weatherApp-react"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -22,7 +22,7 @@ function App() {
           </a>{" "}
           and{" "}
           <a
-            href="https://suspicious-beaver-111c4d.netlify.com/"
+            href="https://ephemeral-jalebi-356954.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
