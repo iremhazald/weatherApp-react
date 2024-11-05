@@ -1,26 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&display=swap");
+
 .weather {
   border: 1px solid lightgray;
-  padding: 16px;
+  padding: 20px;
   margin: 30px auto;
   max-width: 600px;
   border-radius: 4px;
   background-color: #738ffc;
+  box-shadow: 30px 15px 0px 0px #2b003d;
+  border: 4px solid #2b003d;
+  border-radius: 10px;
+  margin-top: 120px;
 }
 
 .weather form {
   margin-bottom: 20px;
 }
 
+.weather form .btn {
+  background-color: #ffe376;
+  border: 1px solid #ffe376;
+}
+
 .weather h1 {
-  color: #878787;
-  color: rgb(135, 135, 135);
+  color: #f7f9ff;
   display: block;
-  font-size: 24px;
-  font-family: Arial, sans-serif;
-  font-weight: 100;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 38px;
   height: 28px;
   line-height: 29px;
-  margin: 20px 0 0 0;
+  margin: 20px 0 20px 0;
 }
 
 .weather ul {
@@ -30,7 +41,7 @@
 .weather li {
   font-size: 16px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 25px;
   list-style: none;
 }
 

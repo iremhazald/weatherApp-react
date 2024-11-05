@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&display=swap");
+
+.weatherInfo .float-left {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.weatherInfo .row .col-6 ul li b {
+  font-weight: bold !important;
+}
+
+.weatherInfo .text-capitalize {
+  font-weight: bold !important;
+}
+
+.weatherInfo .row .col-6 .rightBox {
+  margin-left: 35px;
+  margin-top: 5px;
+}

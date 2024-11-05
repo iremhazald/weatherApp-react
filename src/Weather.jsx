@@ -10,22 +10,22 @@ export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
 
   function handleResponse(response) {
-    console.log(response.data);
     setweatherData({
       ready: true,
-      temperature: response.data.main.temp,
+      temperature: response.data.temperature.current,
       wind: response.data.wind.speed,
-      city: response.data.name,
-      humidity: response.data.main.humidity,
-      description: response.data.weather[0].description,
-      icon: response.data.weather[0].icon,
-      date: new Date(response.data.dt * 1000),
+      city: response.data.city,
+      humidity: response.data.temperature.humidity,
+      description: response.data.condition.description,
+      icon: response.data.condition.icon,
+      date: new Date(response.data.time * 1000),
     });
   }
 
   function search() {
-    const apiKey = "3a94f3778290bfeee61278505dbbe51d";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    const apiKey = "1e4573e080b57c89fadd0873aeof420t";
+    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+
     axios.get(apiUrl).then(handleResponse);
   }
 
@@ -64,7 +64,9 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast />
+        <br />
+        <WeatherForecast city={weatherData.city} />
+        <br />
       </div>
     );
   } else {
