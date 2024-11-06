@@ -4,5 +4,8 @@ body {
   font-family: "Poppins", serif !important;
   font-weight: 400 !important;
   font-style: normal !important;
-  background-color: #abb3ff !important;
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/149/583/original/Into_The_Sky_Zoom_Meeting_Background.jpg?1730850638");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

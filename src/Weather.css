@@ -6,9 +6,9 @@
   margin: 30px auto;
   max-width: 600px;
   border-radius: 4px;
-  background-color: #738ffc;
-  box-shadow: 30px 15px 0px 0px #2b003d;
-  border: 4px solid #2b003d;
+  background-color: #a3d9ff;
+  box-shadow: 30px 15px 0px 0px #4ea0da;
+  border: 4px solid #4ea0da;
   border-radius: 10px;
   margin-top: 120px;
 }
@@ -18,12 +18,12 @@
 }
 
 .weather form .btn {
-  background-color: #ffe376;
+  background-color: #f7f30c;
   border: 1px solid #ffe376;
 }
 
 .weather h1 {
-  color: #f7f9ff;
+  color: #232322;
   display: block;
   font-family: "Anton SC", sans-serif;
   font-weight: 400;
